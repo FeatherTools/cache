@@ -1,0 +1,4 @@
+FSharp.Core
+Microsoft.Extensions.Caching.StackExchangeRedis
+Feather.ErrorHandling
+Alma.ServiceIdentification
