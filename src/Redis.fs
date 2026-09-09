@@ -91,7 +91,10 @@ module Redis =
         options.AbortOnConnectFail <- false
         options.ConnectTimeout     <- 10_000   // ms — allow sentinels time to elect master at startup
         options.ConnectRetry       <- 5
-        options.SyncTimeout        <- 500      // ms — fail fast
+        // Same as StackExchange.Redis defaults (and the standalone mode). A too short timeout makes
+        // callers (e.g. the ASP.NET session middleware) treat a slow read as a missing value.
+        options.SyncTimeout        <- 5_000    // ms
+        options.AsyncTimeout       <- 5_000    // ms
 
         config.Password |> Option.iter (fun p -> options.Password <- p)
 
