@@ -1,0 +1,113 @@
+lockfile_version: '1'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/feather-cache
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/feather-cache/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c26924041ef3aca2a3514011ba95e4cd27e19bcc516933230379b061b5085477
+- kind: project-relative
+  target: claude
+  value: .claude/skills/feather-cache/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f557c8b8b164bfd0694f767eee75dd41c8aa29300668a91fb2bb4c32a55ef2d1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/feather-cache/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:67e8e75548cce29023a58432c2969872f6dd36e86c6e1d0c5e5bf5255705ace1
+- kind: project-relative
+  target: claude
+  value: .claude/skills/feather-cache/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:43c002487f4f8107c64f49b29423b9fbafc0dc549201c1eee8fdd8c0a2a9f630
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/feather-cache
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/feather-cache/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:c26924041ef3aca2a3514011ba95e4cd27e19bcc516933230379b061b5085477
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/feather-cache/references/anti-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:f557c8b8b164bfd0694f767eee75dd41c8aa29300668a91fb2bb4c32a55ef2d1
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/feather-cache/references/examples.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:67e8e75548cce29023a58432c2969872f6dd36e86c6e1d0c5e5bf5255705ace1
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/feather-cache/references/preferred-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:43c002487f4f8107c64f49b29423b9fbafc0dc549201c1eee8fdd8c0a2a9f630
+local_deployed_files:
+- .agents/skills/feather-cache
+- .agents/skills/feather-cache/SKILL.md
+- .agents/skills/feather-cache/references/anti-patterns.md
+- .agents/skills/feather-cache/references/examples.md
+- .agents/skills/feather-cache/references/preferred-patterns.md
+- .claude/skills/feather-cache
+- .claude/skills/feather-cache/SKILL.md
+- .claude/skills/feather-cache/references/anti-patterns.md
+- .claude/skills/feather-cache/references/examples.md
+- .claude/skills/feather-cache/references/preferred-patterns.md
+local_deployed_file_hashes:
+  .agents/skills/feather-cache/SKILL.md: sha256:c26924041ef3aca2a3514011ba95e4cd27e19bcc516933230379b061b5085477
+  .agents/skills/feather-cache/references/anti-patterns.md: sha256:f557c8b8b164bfd0694f767eee75dd41c8aa29300668a91fb2bb4c32a55ef2d1
+  .agents/skills/feather-cache/references/examples.md: sha256:67e8e75548cce29023a58432c2969872f6dd36e86c6e1d0c5e5bf5255705ace1
+  .agents/skills/feather-cache/references/preferred-patterns.md: sha256:43c002487f4f8107c64f49b29423b9fbafc0dc549201c1eee8fdd8c0a2a9f630
+  .claude/skills/feather-cache/SKILL.md: sha256:c26924041ef3aca2a3514011ba95e4cd27e19bcc516933230379b061b5085477
+  .claude/skills/feather-cache/references/anti-patterns.md: sha256:f557c8b8b164bfd0694f767eee75dd41c8aa29300668a91fb2bb4c32a55ef2d1
+  .claude/skills/feather-cache/references/examples.md: sha256:67e8e75548cce29023a58432c2969872f6dd36e86c6e1d0c5e5bf5255705ace1
+  .claude/skills/feather-cache/references/preferred-patterns.md: sha256:43c002487f4f8107c64f49b29423b9fbafc0dc549201c1eee8fdd8c0a2a9f630
